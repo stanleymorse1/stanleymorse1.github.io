@@ -33,8 +33,8 @@
 		</div></nav>
 		<!-- Image part - replace with video when its made -->
 		<div>
-		<img src="ReclaimerBackground.jpg">
-		<p>Hey, thanks for stopping by! I'm Stanley, a graduate game designer and programmer who's always in search of a new challenge. I'm usually a programmer, but I like to dip my toes into other disciplines like sound design, music, and 2D/3D art from time to time.</p>
+		<!--<img src="ReclaimerBackground.jpg">-->
+		<p style="background-image: href=`ReclaimerBackground.jpg`);">Hey, thanks for stopping by! I'm Stanley, a graduate game designer and programmer who's always in search of a new challenge. I'm usually a programmer, but I like to dip my toes into other disciplines like sound design, music, and 2D/3D art from time to time.</p>
 		</div>
 	</header>
 	</div>
