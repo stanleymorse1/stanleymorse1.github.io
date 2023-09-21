@@ -3,7 +3,7 @@
 	<head>
 	<link rel="stylesheet" href="main.css">
 	<title>Stanley Morse - BSc Game Design</title>
-	<link rel="icon" type="image/x-icon" href="ParadroidLogo">
+	<link rel="icon" type="image/x-icon" href="ParadroidLogo.png">
 	</head>
 	<body>
 	<!-- Sidebar -->
@@ -28,7 +28,7 @@
 		<div class="social-buttons">
 		<ul id="menu-social">
 			<!-- do inline icons for each -->
-			<li id="itch-link"><a href="https://naughtyrobot.itch.io/"><span class="screen-reader-text">Itch</span></a></li>
+			<li id="itch-link"><a href="https://paradro1d.itch.io/"><img src="itchLogo.png"><span class="screen-reader-text">Itch</span></a></li>
 			<li id="twitter-link"><a href="https://twitter.com/paradr0id_"><span class="screen-reader-text">Twitter</span></a></li>
 			<li id="github-link"><a href="https://github.com/stanleymorse1"><span class="screen-reader-text">Github</span></a></li>
 		</ul>
