@@ -1,6 +1,9 @@
 *{
 	margin: 0px;
 }
+html{
+	scroll-behavior: smooth;
+}
 html,body{
 	height:100%;
 }
@@ -34,9 +37,23 @@ body{
 .sidebar a{
 	color: white;
 	text-decoration: none;
+	transition: 0.15s ease;
 }
-.sidebar a:hover{
-	text-decoration: underline;
+.sidebar a:hover, header a:hover{
+	/* text-decoration: underline; */
+	color: #dd4a4a;
+}
+#menu-social{
+	padding-left: 0px;
+}
+#menu-social img{
+	width:0.9vw;
+	height:0.9vw;
+	margin-right:6px;
+}
+.social-buttons li{
+	display: inline;
+	padding-right: 17px;
 }
 header{
 	background-color: #282828;
@@ -50,15 +67,45 @@ header h1{
 	font-size:2vw;
 	padding-bottom:0.5%;
 }
+header a{
+	vertical-align: middle;
+	color: white;
+	text-decoration: none;
+	transition:0.15s ease;
+}
 header li{
 	font-size: 1.2vw;
 }
-#main-page-media{
+#main-page-media img{
 	display:block;
-	max-width:100%;
-	max-height:100%;
+	width:100%;
+	height:auto;
 }
-#page{
+#main-page-media{
+	position:relative;
+}
+#overlay{
+	position: absolute;
+	background: rgba(90, 27, 18, 0.75); /* Black see-through */
+	color: #f1f1f1;
+	width: 100%;
+	height: 100%;
+	transition: .7s ease;
+	opacity: 1;
+	font-size:5vw;
+}
+#overlay p{
+	text-align: center;
+	padding-top:25%;
+	transition: .7s ease;
+}
+#main-page-media:hover #overlay {
+	opacity: 0;
+}
+#main-page-media:hover #overlay p{
+	padding-top:40%;
+}
+#page:not(.emphasis, .content){
 	color: black;
 	background-size: length;
 	background-color: white;
@@ -68,31 +115,38 @@ header li{
 	flex-flow: column;
 	height: 100%;
 }
-#page *:not(#main-page-media){
-	font-size: 120%;
-	padding-top: 2%;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 0px;
+.content{
+	color: black;
+	/* background-size: length; */
+	background-color: white;
+	/* display: flex; */
+	flex-flow: column;
+	/* height: 100%; */
 }
-
-header a{
-	vertical-align: middle;
-	color: white;
-	text-decoration: none;
+.content p{
+	padding-bottom:5%;
 }
-header a:hover{
-	text-decoration: underline;
+.content:not(#intro){
+	padding: 10%;
+	font-size: 1.1vw;
 }
-#menu-social{
-	padding-left: 0px;
+.content h2{
+	text-align:center;
+	text-decoration:underline;
+	padding-bottom:6%;
 }
-#menu-social img{
-	width:0.9vw;
-	height:0.9vw;
-	margin-right:6px;
+.emphasis{
+	font-weight:bold;
+	color: #dd4a4a;
+	background:none;
 }
-.social-buttons li{
-	display: inline;
-	padding-right: 17px;
+#intro{
+	background-size: length;
+	background-color: white;
+	/* display: flex; */
+	/* flex-flow: column; */
+	padding: 20%;
+	padding-bottom:10%;
+	padding-top:10%;
+	font-size: 1.4vw;
 }
