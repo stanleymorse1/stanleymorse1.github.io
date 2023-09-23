@@ -3,18 +3,18 @@
 	<head>
 	<link rel="stylesheet" href="main.css">
 	<title>Stanley Morse - BSc Game Design</title>
-	<link rel="icon" type="image/x-icon" href="ParadroidLogo.png">
+	<link rel="icon" type="image/x-icon" href="Icons/ParadroidLogo.png">
 	</head>
 	<body>
 	<!-- Sidebar -->
 	<nav class="sidebar" aria-label="Main Navigation">
-		<img src="ParadroidLogo.png" alt="Robo Logo" style="width:90px;height:90px;">
+		<img src="Icons/ParadroidLogo.png" alt="Robo Logo" style="width:90px;height:90px;">
 		<div class="main-menu-container">
 		<ul id="menu-primary-1" class="main-menu" aria-label="submenu">
 			<!-- scroll on click -->
 			<li><a href="#masthead" aria-current="page">Introduction</a></li>
 			<li><a href="#about-me">About Me</a></li>
-			<li><a href="">Skills</a></li>
+			<li><a href="#skills">Skills</a></li>
 			<li><a href="">Projects</a></li>
 			<li><a href="">Contact</a></li>
 		</ul>
@@ -28,9 +28,9 @@
 		<div class="social-buttons">
 		<ul id="menu-social">
 			<!-- do inline icons for each -->
-			<li id="itch-link"><a href="https://paradro1d.itch.io/"><img src="itchLogo.png"><span class="screen-reader-text">Itch</span></a></li>
-			<li id="twitter-link"><a href="https://twitter.com/paradr0id_"><img src="twitterLogo.png"><span class="screen-reader-text">Twitter</span></a></li>
-			<li id="github-link"><a href="https://github.com/stanleymorse1"><img src="githubLogo.png"><span class="screen-reader-text">Github</span></a></li>
+			<li id="itch-link"><a href="https://paradro1d.itch.io/"><img src="Icons/itchLogo.png"><span class="screen-reader-text">Itch</span></a></li>
+			<li id="twitter-link"><a href="https://twitter.com/paradr0id_"><img src="Icons/twitterLogo.png"><span class="screen-reader-text">Twitter</span></a></li>
+			<li id="github-link"><a href="https://github.com/stanleymorse1"><img src="Icons/githubLogo.png"><span class="screen-reader-text">Github</span></a></li>
 		</ul>
 		</div>
 		</div>
@@ -39,13 +39,30 @@
 		<!-- Image part - replace with video when its made -->
 		<div id="main-page-media">
 			<div id="overlay"><p>Introduction</p></div>
-			<img src="ReclaimerBackground.jpg">
+			<img src="Media/Main/ReclaimerBackground.jpg">
 		</div>
 		<p id="intro" class="content">I'm <span class="emphasis">Stanley Morse</span>, a graduate game design student who's always in search of a new challenge. I'm usually a programmer, but I like to dip my toes into other disciplines like sound design, music, and 2D/3D art from time to time.</p>
-		<img src="ReclaimerBackground.jpg">
+		<img src="Media/Main/ReclaimerBackground.jpg">
 		<div id="about-me" class="content">
 			<h2>About Me</h2>
-			<p>I'm a twenty-something indie game developer based in London, England with a passion to create games ranging from chill puzzle platformers to fast-paced narrative adventures. From a young age I've been frantically drawing and doodling ideas almost daily and dreaming of the games I would make. Since I began my first game project for my A-level Computer Science coursework in 2017, I've been making those dreams a reality.</p>
+			<div id="face-container">
+				<div id="face-overlay">Me on a tuesday afternoon</div>
+				<img src="Media/Main/Stanley1.jpg" alt="My Face">
+			</div>
+			<p>I'm a twenty-something indie game developer based in London, England with a passion to create games ranging from chill puzzle platformers to action-packed narrative adventures. From a young age I've been frantically drawing,  jotting ideas and dreaming almost daily of the games I would make. Since I began my first game project for my A-level Computer Science coursework in 2017, I've been making those dreams a reality.</p>
+			
+			<p>I've always worked without following tutorials where I could, instead abstracting and breaking down each problem into its component parts and using  documentation to assist in finding a solution. This helped me to develop my problem-solving skills and enables me to solve and implement unique problems and experimental features in my games. Paired with my perseverance, I am yet to find a problem I couldn't solve (at least, within game development).</p>
+		</div>
+		<div id="skills" class="content">
+			<h2>Skills</h2>
+			<p>I'm a self-taught programmer working mainly on unity games in my spare time, but I'm highly adaptive and capable of transferring my skills to new programming languages within days. I used to do web development at a youth centre, and used said skills to build this website from scratch in 3 days.</p>
+			<h3>So far I've learned:</h3>
+			<ul id="languages">
+			<li>C#</li>
+			<li>Python</li>
+			<li>LUA</li>
+			<li>HTML/CSS/JavaScript</li>
+			</ul>
 		</div>
 	</div>
 	</body>
