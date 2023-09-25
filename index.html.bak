@@ -46,20 +46,16 @@
 			<h2>My Projects</h2>
 		<div id="showcase">
 			<div class="folio-thumbnail">
-				<div class="folio-overlay"></div>
-				<a class="folio-thumbnail" href=""><img src="Media/Main/ReclaimerBackground.jpg"></a>
+				<a class="folio-thumbnail" href=""><img src="Media/Main/ReclaimerBackground.jpg"><div class="folio-overlay">Aqua</div></a>
 			</div>
 			<div class="folio-thumbnail">
-				<div class="folio-overlay"></div>
-				<a href=""><img src="Media/Main/ReclaimerBackground.jpg"></a>
+				<a class="folio-thumbnail" href=""><img src="Media/Main/ReclaimerBackground.jpg"><div class="folio-overlay">Reclaimer</div></a>
 			</div>
 			<div class="folio-thumbnail">
-				<div class="folio-overlay"></div>
-				<a href=""><img src="Media/Main/ReclaimerBackground.jpg"></a>
+				<a class="folio-thumbnail" href=""><img src="Media/Main/ReclaimerBackground.jpg"><div class="folio-overlay">Spline Rider</div></a>
 			</div>
 			<div class="folio-thumbnail">
-				<div class="folio-overlay"></div>
-				<a href=""><img src="Media/Main/ReclaimerBackground.jpg"></a>
+				<a class="folio-thumbnail" href=""><img src="Media/Main/ReclaimerBackground.jpg"><div class="folio-overlay">Project Eden</div></a>
 			</div>
 		</div>
 		</div>
