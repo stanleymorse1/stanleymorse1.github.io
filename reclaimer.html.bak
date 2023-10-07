@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="project.css">
+	<title>Stanley Morse - BSc Game Design</title>
+	<link rel="icon" type="image/x-icon" href="Icons/ParadroidLogo.png">
+	</head>
+	<body>
+	<!-- Sidebar -->
+	<nav class="sidebar" aria-label="Main Navigation">
+		<img src="Icons/ParadroidLogo.png" alt="Robo Logo" style="width:90px;height:90px;">
+		<div class="main-menu-container">
+		<ul id="menu-primary-1" class="main-menu" aria-label="submenu">
+			<!-- scroll on click -->
+			<li><a href="index.html#masthead" aria-current="page">Introduction</a></li>
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#about-me">About</a></li>
+			<li><a href="index.html#skills">Skills</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</div></nav>
+	<header id="masthead" role="banner">
+		<!-- Site header -->
+		<div class="flex-container">
+		<h1 class="site-title"><a href="https://stanleymorse1.github.io" rel="home">Stanley Morse - BSc (Hons) Games Design</a></h1>
+		
+		<!-- Social links -->
+		<div class="social-buttons">
+		<ul id="menu-social">
+			<!-- do inline icons for each -->
+			<li id="itch-link"><a href="https://paradro1d.itch.io/"><img src="Icons/itchLogo.png"><span class="screen-reader-text">Itch</span></a></li>
+			<li id="twitter-link"><a href="https://twitter.com/paradr0id_"><img src="Icons/twitterLogo.png"><span class="screen-reader-text">Twitter</span></a></li>
+			<li id="github-link"><a href="https://github.com/stanleymorse1"><img src="Icons/githubLogo.png"><span class="screen-reader-text">Github</span></a></li>
+		</ul>
+		</div>
+		</div>
+	</header>
+	<div id="page">
+		<!-- Image part - replace with video when its made -->
+		<div id="main-page-media">
+			<div id="overlay"><p>Reclaimer</p></div>
+			<img src="Media/Main/ReclaimerNewBG.png">
+		</div>
+		<div id="main-info" class="content">
+			<p id="roles">Solo project – all assets are my own aside from some character animations</p>
+			<p>Reclaimer is a work-in-progress action rogue-lite that follows a guardian golem in restoring order to a dystopian, magic-fearing civilisation.</p>
+			<img src="Media/Main/ReclaimerNewBG.png">
+			<p>The game features twin-stick controls, where the player can move and attack in different directions, block, dash, cycle through and execute abilities, designed with controller support in mind. There are many ability combos that can be used, such as slashing while blocking to break the shield in an AOE attack that expels its stored damage. It features other complex systems such as character IK for procedural hit reactions, dithering of vision-obscuring walls and objects, and modular AI statemachines.</p>
+			<img src="Media/Main/ReclaimerNewBG.png">
+			<p>Reclaimer’s AI enemies are smart and optimized; they use line-of-sight detection to track and investigate the player’s last known position without cheating, utilizing realistic search behaviours to allow for tactical stealth gameplay. The AI are optimized to reduce their simulation rate beyond a certain distance from the player, so far away or off-screen enemies won’t use as much CPU time but will still be able to track and respond to allies.</p>
+			<p>Reclaimer is in early development</p>
+		</div>
+	</div>
+	</body>
+</html>

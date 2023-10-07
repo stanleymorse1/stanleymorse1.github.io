@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="project.css">
+	<title>Stanley Morse - BSc Game Design</title>
+	<link rel="icon" type="image/x-icon" href="Icons/ParadroidLogo.png">
+	</head>
+	<body>
+	<!-- Sidebar -->
+	<nav class="sidebar" aria-label="Main Navigation">
+		<img src="Icons/ParadroidLogo.png" alt="Robo Logo" style="width:90px;height:90px;">
+		<div class="main-menu-container">
+		<ul id="menu-primary-1" class="main-menu" aria-label="submenu">
+			<!-- scroll on click -->
+			<li><a href="index.html" aria-current="page">Introduction</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#about-me">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</div></nav>
+	<header id="masthead" role="banner">
+		<!-- Site header -->
+		<div class="flex-container">
+		<h1 class="site-title"><a href="https://stanleymorse1.github.io" rel="home">Stanley Morse - BSc (Hons) Games Design</a></h1>
+		
+		<!-- Social links -->
+		<div class="social-buttons">
+		<ul id="menu-social">
+			<!-- do inline icons for each -->
+			<li id="itch-link"><a href="https://paradro1d.itch.io/"><img src="Icons/itchLogo.png"><span class="screen-reader-text">Itch</span></a></li>
+			<li id="twitter-link"><a href="https://twitter.com/paradr0id_"><img src="Icons/twitterLogo.png"><span class="screen-reader-text">Twitter</span></a></li>
+			<li id="github-link"><a href="https://github.com/stanleymorse1"><img src="Icons/githubLogo.png"><span class="screen-reader-text">Github</span></a></li>
+		</ul>
+		</div>
+		</div>
+	</header>
+	<div id="page">
+		<!-- Image part - replace with video when its made -->
+		<div id="main-page-media">
+			<div id="overlay"><p>Aqua</p></div>
+			<img src="Media/Main/Aqua1Cropped.png">
+		</div>
+		<div id="main-info" class="content">
+			<p id="roles">Tech lead, graphics and gameplay programmer, some level and mechanical design</p>
+			<p>A short 2D puzzle adventure game where the player must use the power of a water spirit and their platforming skills to solve puzzles and save the world. I programmed our two character controllers, including multiple complex animation condition and state changes.</p>
+			<img src="Media/Main/Aqua1Cropped.png">
+			<p>The water spirit character uses a procedurally animated sprite culling mask for the transition animations to make the thawing animation correctly orient to the relevant heat source.</p>
+			<img src="Media/Main/Aqua1Cropped.png">
+			<p>Aqua was a team effort, I worked with multiple other talented individuals to make the game in just under 4 months. We later spent a further month polishing it for submission to the Aesthetica Film Festival, for which it is currently nominated for an award.</p>
+			
+			<p>Full credits and Download: <a href="https://cascade-productions.itch.io/aqua">Itch.io</a></p>
+		</div>
+	</div>
+	</body>
+</html>
