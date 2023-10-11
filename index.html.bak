@@ -1,3 +1,19 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("stanleymorse1@gmail.com", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: an@email.address");
+
+
+}
+
+
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -16,7 +32,7 @@
 			<li><a href="#projects">Projects</a></li>
 			<li><a href="#about-me">About</a></li>
 			<li><a href="#skills">Skills</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</div></nav>
 	<header id="masthead" role="banner">
@@ -71,15 +87,35 @@
 		</div>
 		<div id="skills" class="content">
 			<h2>Skills</h2>
-			<p>I'm a self-taught programmer working mainly on unity games in my spare time, but I'm highly adaptive and capable of transferring my skills to new languages within weeks. I learned and taught web development at a previous job and used those skills to build this site from scratch in a couple weeks.</p>
+			<p>I'm a self-taught programmer working mainly on unity games in my spare time, but I'm highly adaptive and capable of transferring my skills to new languages within weeks. I learned and taught web development at a previous job and used those skills to build this website from scratch in a few days.</p>
 			<ul id="languages">
 			<li>6+ years in Unity with C#</li>
-			<li>VR gameplay and interface</li>
+			<li>VR gameplay and interfaces</li>
 			<li>Proficient in Substance painter and Maya</li>
 			<li>HTML/CSS/JavaScript</li>
 			<li>LUA</li>
 			<li>Python</li>
 			</ul>
+			<p>In addition to these technical skills, I have learned to support a team and organise projects as a producer and generalist in several game jams (see games listed on my <a href="https://paradro1d.itch.io/">itch</a> page), as well as presentation skills from pitching projects and my time as a teacher.</p>
+		</div>
+		<div id="Contact" class="content">
+			<h2>Contact</h2>
+			<p>If you're interested in hearing more I'm currently single! and <span class="emphasis">open for employment</span>, if you wish to get in contact or get a copy of my CV, please fill out the form and I'll get back to you as soon as I can.</p>
+			
+			<form action="contactform.php" method="post">
+			
+			<label for="name">Company name:</label>
+			<input type="text" name="companyname" placeholder="Company Incorporated LTD.">
+			<label for="email">Email:</label>
+			<input type="email" name="email" placeholder="you@yourcompany.blah">
+			<br>
+			<textarea name="message" placeholder="leave a nice message here!" cols="80" rows="8"></textarea>
+			<br>
+			
+			<input type="Submit" name="submit" value="Send">
+			</form>
+			
+			<p id="smallprint">This information is only used to send an email to my address and is not stored. You can check the php if you really want as this website is open source on my <a href="https://github.com/stanleymorse1">Github</a>.</p>
 		</div>
 	</div>
 	</body>
