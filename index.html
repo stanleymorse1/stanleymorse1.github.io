@@ -1,19 +1,3 @@
-<?php
-
-
-if($_POST["message"]) {
-
-
-mail("stanleymorse1@gmail.com", "Here is the subject line",
-
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-
-}
-
-
-?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -21,6 +5,9 @@ $_POST["insert your message here"]. "From: an@email.address");
 	<title>Stanley Morse - BSc Game Design</title>
 	<link rel="icon" type="image/x-icon" href="Icons/ParadroidLogo.png">
 	</head>
+	<!-- Start of HubSpot Embed Code -->
+	<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/143453440.js"></script>
+	<!-- End of HubSpot Embed Code -->
 	<body>
 	<!-- Sidebar -->
 	<nav class="sidebar" aria-label="Main Navigation">
@@ -102,8 +89,16 @@ $_POST["insert your message here"]. "From: an@email.address");
 			<h2>Contact</h2>
 			<p>If you're interested in hearing more I'm currently single! and <span class="emphasis">open for employment</span>, if you wish to get in contact or get a copy of my CV, please fill out the form and I'll get back to you as soon as I can.</p>
 			
-			<form action="contactform.php" method="post">
-			
+			<form name="contactform">
+			<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+			<script>
+			hbspt.forms.create({
+			region: "eu1",
+			portalId: "143453440",
+			formId: "3e67204c-0a4b-414c-a289-651e5eb394f9"
+			});
+			</script>
+			<!--
 			<label for="name">Company name:</label>
 			<input type="text" name="companyname" placeholder="Company Incorporated LTD.">
 			<label for="email">Email:</label>
@@ -113,9 +108,11 @@ $_POST["insert your message here"]. "From: an@email.address");
 			<br>
 			
 			<input type="Submit" name="submit" value="Send">
-			</form>
+			
 			
 			<p id="smallprint">This information is only used to send an email to my address and is not stored. You can check the php if you really want as this website is open source on my <a href="https://github.com/stanleymorse1">Github</a>.</p>
+			-->
+			</form>
 		</div>
 	</div>
 	</body>
