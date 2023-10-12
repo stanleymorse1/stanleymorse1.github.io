@@ -68,9 +68,11 @@
 				<div id="face-overlay">Hello</div>
 				<img src="Media/Main/Stanley1.jpg" alt="My Face">
 			</div>
+			<div id="biographic">
 			<p>I'm a twenty-something indie game developer based in London, England with a passion to create games ranging from chill puzzle platformers to action-packed narrative adventures. From a young age I've been frantically drawing,  jotting ideas and dreaming of the games I would make. Since beginning my first game project for Computer Science coursework in 2017, I've been making those dreams a reality.</p>
 			
 			<p>I'm self-taught and rarely use tutorials, instead abstracting and breaking down problems into simpler components to find a solution. This helped me to develop my problem-solving skills and enables me to tackle unique problems and implement experimental features in my games. Paired with my perseverance, I am yet to find a problem I couldn't solve (at least, within game development).</p>
+			</div>
 		</div>
 		<div id="skills" class="content">
 			<h2>Skills</h2>
