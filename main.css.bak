@@ -211,18 +211,17 @@ header li{
 	padding-bottom:7%;
 	padding-right:0%;
 }
-
+#biographic{
+	width:55%;
+	float:left;
+	display:block;
+}
 #face-container{
 	position:relative;
 	margin-right:3%;
 	width:40%;
 	height:auto;
 	float:left;
-}
-#biographic{
-	width:55%;
-	float:left;
-	display:block;
 }
 #face-container img{
 	/* filter: saturate(0%); */

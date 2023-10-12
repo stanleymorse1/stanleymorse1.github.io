@@ -246,3 +246,6 @@ header li{
 #face-container:hover #face-overlay{
 	opacity: 1;
 }
+.contactform{
+	padding-bottom:3%;
+}

@@ -42,13 +42,16 @@
 			<img src="Media/Main/ReclaimerNewBG.png">
 		</div>
 		<div id="main-info" class="content">
-			<p id="roles">Solo project – all assets are my own aside from some character animations</p>
-			<p>Reclaimer is a work-in-progress action rogue-lite that follows a guardian golem in restoring order to a dystopian, magic-fearing civilisation.</p>
+			<p id="roles">Solo project – Code, 3D art, 2D art, Sound design and gameplay design (character animations provided by Mixamo)</p>
+			<p>Reclaimer is an upcoming story-driven action rogue-lite about clearing procedural dungeons to reclaim lost magical powers, where players will have to decide wether they will risk losing powers in order to progress further or navigate a chaotic rupture in reality to escape and bank their progress.</p>
 			<img src="Media/Main/ReclaimerNewBG.png">
-			<p>The game features twin-stick controls, where the player can move and attack in different directions, block, dash, cycle through and execute abilities, designed with controller support in mind. There are many ability combos that can be used, such as slashing while blocking to break the shield in an AOE attack that expels its stored damage. It features other complex systems such as character IK for procedural hit reactions, dithering of vision-obscuring walls and objects, and modular AI statemachines.</p>
+			<p>The game follows a guardian golem in restoring order to a dystopian, magic-fearing civilisation. The game is designed for gamepad with twin-stick controls, where the player can slash, block, dash and cycle through and use their reclaimed powers. There are many ability combos that can be used; slashing while blocking will break the shield in an AOE attack that expels its stored damage, leaving the player vulnerable as the shield recharges, while dashing and blocking simultaneously causes any enemies in their path to be briefly stunned.</p>
 			<img src="Media/Main/ReclaimerNewBG.png">
-			<p>Reclaimer’s AI enemies are smart and optimized; they use line-of-sight detection to track and investigate the player’s last known position without cheating, utilizing realistic search behaviours to allow for tactical stealth gameplay. The AI are optimized to reduce their simulation rate beyond a certain distance from the player, so far away or off-screen enemies won’t use as much CPU time but will still be able to track and respond to allies.</p>
-			<p>Reclaimer is in early development</p>
+			<p>Reclaimer features complex systems such as character IK for procedural hit reactions, dithering of vision-obscuring walls and objects, a predictive projectile weapon aiming algorithm and modular AI state machines.</p>
+			<img src="Media/Main/ReclaimerNewBG.png">
+			<p>Reclaimer’s AI enemies are smart and optimized; they use line-of-sight detection to track and investigate the player’s last known position without cheating, utilizing realistic search behaviours to allow for tactical stealth gameplay. The AI are optimized to reduce their simulation rate beyond a certain distance from the player, so far away or off-screen enemies won’t use as much CPU time but will still be able to patrol and respond to calls for help from their allies.</p>
+			<img src="Media/Main/ReclaimerNewBG.png">
+			<p>Reclaimer is currently in early development and has no planned release date</p>
 		</div>
 	</div>
 	</body>

@@ -12,10 +12,10 @@
 		<div class="main-menu-container">
 		<ul id="menu-primary-1" class="main-menu" aria-label="submenu">
 			<!-- scroll on click -->
-			<li><a href="index.html" aria-current="page">Introduction</a></li>
-			<li><a href="#projects">Projects</a></li>
-			<li><a href="#about-me">About</a></li>
-			<li><a href="#skills">Skills</a></li>
+			<li><a href="index.html#masthead" aria-current="page">Introduction</a></li>
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#about-me">About</a></li>
+			<li><a href="index.html#skills">Skills</a></li>
 			<li><a href="">Contact</a></li>
 		</ul>
 	</div></nav>
@@ -42,14 +42,14 @@
 			<img src="Media/Main/Aqua1Cropped.png">
 		</div>
 		<div id="main-info" class="content">
-			<p id="roles">Tech lead, graphics and gameplay programmer, some level and mechanical design</p>
-			<p>A short 2D puzzle adventure game where the player must use the power of a water spirit and their platforming skills to solve puzzles and save the world. I programmed our two character controllers, including multiple complex animation condition and state changes.</p>
+			<p id="roles">Team project - Lead graphics and gameplay programmer, some level and mechanical design</p>
+			<p>A short 2D puzzle adventure game where the player must use the power of a water spirit and their platforming skills to solve puzzles and save the world. I programmed our two character controllers, including a complex procedural animation system for the water spirit.</p>
 			<img src="Media/Main/Aqua1Cropped.png">
-			<p>The water spirit character uses a procedurally animated sprite culling mask for the transition animations to make the thawing animation correctly orient to the relevant heat source.</p>
+			<p>I wrote all the game's code in C# in unity, made most of the particle systems, designed all of level 1 and most of level 2, as well as assisting in designing the game's main mechanics. I worked with a team of talented individuals to deliver content milestones on specific deadlines to keep momentum up to complete the game by our deadline in under 4 months.</p>
 			<img src="Media/Main/Aqua1Cropped.png">
-			<p>Aqua was a team effort, I worked with multiple other talented individuals to make the game in just under 4 months. We later spent a further month polishing it for submission to the Aesthetica Film Festival, for which it is currently nominated for an award.</p>
+			<p>More recently, Aqua has been nominated for an award at the Asthetica Short Film Festival in York after we spent a further month polishing the game with new art and bugfixes to bring it up to our new standards as graduates.</p>
 			
-			<p>Full credits and Download: <a href="https://cascade-productions.itch.io/aqua">Itch.io</a></p>
+			<p>Aqua is out now for free! Read more and download it on our <a href="https://cascade-productions.itch.io/aqua">Itch.io</a></p>
 		</div>
 	</div>
 	</body>
