@@ -124,7 +124,7 @@ header li{
 	flex-flow: column;
 	/* height: 100%; */
 }
-.content p{
+.content p, .content ul{
 	padding-bottom:5%;
 }
 #projects h2{
@@ -181,7 +181,8 @@ header li{
 	opacity: 1;
 }
 .content:not(#intro, #face-container, #face-overlay, #projects, #showcase){
-	padding: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
 	font-size: 1.1vw;
 }
 .content h2:not(#projects *){
@@ -204,6 +205,16 @@ header li{
 	padding-bottom:10%;
 	padding-top:10%;
 	font-size: 1.4vw;
+}
+#about-me{
+	padding-top:7%;
+	padding-bottom:7%;
+	padding-right:0%;
+}
+#biographic{
+	width:55%;
+	float:left;
+	display:block;
 }
 #face-container{
 	position:relative;
