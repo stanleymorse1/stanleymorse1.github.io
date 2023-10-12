@@ -124,7 +124,7 @@ header li{
 	flex-flow: column;
 	/* height: 100%; */
 }
-.content p, ul{
+.content p{
 	padding-bottom:5%;
 }
 #projects h2{
@@ -177,12 +177,11 @@ header li{
 	color: #f1f1f1;
 	width: 100%;
 	height: 100%;
-	transition: .2s ease;
+	transition: .1s ease;
 	opacity: 1;
 }
 .content:not(#intro, #face-container, #face-overlay, #projects, #showcase){
-	padding-right: 10%;
-	padding-left: 10%;
+	padding: 10%;
 	font-size: 1.1vw;
 }
 .content h2:not(#projects *){
@@ -206,23 +205,12 @@ header li{
 	padding-top:10%;
 	font-size: 1.4vw;
 }
-#about-me{
-	padding-top:7%;
-	padding-bottom:7%;
-	padding-right:0%;
-}
-
 #face-container{
 	position:relative;
 	margin-right:3%;
 	width:40%;
 	height:auto;
 	float:left;
-}
-#biographic{
-	width:55%;
-	float:left;
-	display:block;
 }
 #face-container img{
 	/* filter: saturate(0%); */
