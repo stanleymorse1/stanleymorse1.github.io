@@ -128,7 +128,7 @@ header li{
 	padding-bottom:5%;
 	padding-top:5%;
 }
-.content img{
+.content img, .content video{
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;

@@ -16,7 +16,7 @@
 			<li><a href="index.html#projects">Projects</a></li>
 			<li><a href="index.html#about-me">About</a></li>
 			<li><a href="index.html#skills">Skills</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
 		</ul>
 	</div></nav>
 	<header id="masthead" role="banner">
@@ -48,8 +48,8 @@
 			<p>The game follows a guardian golem in restoring order to a dystopian, magic-fearing civilisation. The game is designed for gamepad with twin-stick controls, where the player can slash, block, dash and cycle through and use their reclaimed powers. There are many ability combos that can be used; slashing while blocking will break the shield in an AOE attack that expels its stored damage, leaving the player vulnerable as the shield recharges, while dashing and blocking simultaneously causes any enemies in their path to be briefly stunned.</p>
 			<img src="Media/Main/ReclaimerNewBG.png">
 			<p>Reclaimer features complex systems such as character IK for procedural hit reactions, dithering of vision-obscuring walls and objects, a predictive projectile weapon aiming algorithm and modular AI state machines.</p>
-			<img src="Media/Main/ReclaimerNewBG.png">
-			<p>Reclaimer’s AI enemies are smart and optimized; they use line-of-sight detection to track and investigate the player’s last known position without cheating, utilizing realistic search behaviours to allow for tactical stealth gameplay. The AI are optimized to reduce their simulation rate beyond a certain distance from the player, so far away or off-screen enemies won’t use as much CPU time but will still be able to patrol and respond to calls for help from their allies.</p>
+			<video src="Media/Reclaimer/HitReactions.mp4" width="100%" height="auto" loop muted autoplay>
+			<p>Reclaimer’s AI enemies are smart and optimized; they use line-of-sight based detection to track and investigate the player’s last known position without cheating, utilizing realistic search behaviours to allow for tactical stealth gameplay. The AI are optimized to reduce their simulation rate beyond a certain distance from the player, so far away or off-screen enemies won’t use as much CPU time but will still be able to patrol and respond to calls for help from their allies.</p>
 			<img src="Media/Main/ReclaimerNewBG.png">
 			<p>Reclaimer is currently in early development and has no planned release date</p>
 		</div>
