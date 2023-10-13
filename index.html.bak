@@ -44,7 +44,7 @@
 			<div id="overlay"><p>Introduction</p></div>
 			<video src="Media/Reclaimer/HitReactions.mp4" loop muted autoplay>
 		</div>
-		<p id="intro" class="content">I'm <span class="emphasis">Stanley Morse</span>, a graduate game design student who's always in search of a new challenge. I'm usually a programmer, but I like to dip my toes into other disciplines like sound design, music, and 2D/3D art from time to time.</p>
+		<p id="intro" class="content">Welcome to my world! I'm constantly spilling my brains into crazy games and I'm currently looking for my next challenge. I'm primarily a <span class="emphasis">programmer/designer</span>, but I like to branch out. Check out my games below!</p>
 		<div id="projects" class="content">
 			<!-- <h2>Projects</h2> -->
 		<div id="showcase">
@@ -76,11 +76,12 @@
 		</div>
 		<div id="skills" class="content">
 			<h2>Skills</h2>
-			<p>I'm a self-taught programmer working mainly on unity games in my spare time, but I'm highly adaptive and capable of transferring my skills to new languages within weeks. I learned and taught web development at a previous job and used those skills to build this website from scratch in a few days.</p>
+			<p>I'm mainly working on unity games in my spare time, but I'm highly adaptive and capable of transferring my skills to new languages within weeks. I learned and taught web development at a previous job and used those skills to build this website from scratch in a few days.</p>
 			<ul id="languages">
 			<li>6+ years in Unity with C#</li>
 			<li>VR gameplay and interfaces</li>
 			<li>Proficient in Substance painter and Maya</li>
+			<li>Good understanding of asset creation pipeline</li>
 			<li>HTML/CSS/JavaScript</li>
 			<li>LUA</li>
 			<li>Python</li>

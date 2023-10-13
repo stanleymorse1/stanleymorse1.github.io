@@ -128,11 +128,11 @@ header li{
 	padding-bottom:5%;
 	padding-top:5%;
 }
-.content img{
+.content img, .content video{
 	margin-left:auto;
 	margin-right:auto;
 	width:80%;
-	display:block;
+	/* display:block; */
 	float:middle;
 }
 .content:not(#roles){
