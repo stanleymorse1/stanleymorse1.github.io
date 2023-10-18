@@ -44,15 +44,15 @@
 			<div id="overlay"><p>Introduction</p></div>
 			<video src="Media/Reclaimer/HitReactions.mp4" loop muted autoplay>
 		</div>
-		<p id="intro" class="content">Welcome to my world! I'm constantly spilling my brains into crazy games and I'm currently looking for my next challenge. I'm primarily a <span class="emphasis">programmer/designer</span>, but I like to branch out. Check out my games below!</p>
+		<p id="intro" class="content">Welcome to my world! I'm constantly spilling my brains into crazy games and I'm currently looking for my next challenge. I'm primarily a <span class="emphasis">programmer/designer</span>, but I like to branch out. Feel free to check out my games below!</p>
 		<div id="projects" class="content">
 			<!-- <h2>Projects</h2> -->
 		<div id="showcase">
 			<div class="folio-thumbnail">
-				<a class="folio-thumbnail" href="eden.html"><img src="Media/Main/ReclaimerBackground.jpg"><div class="folio-overlay">Pr̀o̠̗̟j̲̐e͋̍̅͢c̟̹̿ͩͯt͆ͤ͢ ̣̋ͦEd͏̰ͩė̯̘̕͘ñ̨̛̀̀</div></a>
+				<a class="folio-thumbnail" href="eden.html"><img src="Media/Main/EdenPhantom.jpg"><div class="folio-overlay">Pr̀o̠̗̟j̲̐e͋̍̅͢c̟̹̿ͩͯt͆ͤ͢ ̣̋ͦEd͏̰ͩė̯̘̕͘ñ̨̛̀̀</div></a>
 			</div>
 			<div class="folio-thumbnail">
-				<a class="folio-thumbnail" href="spline.html"><img src="Media/Main/SplineDraw.png"><div class="folio-overlay">Spline Rider</div></a>
+				<a class="folio-thumbnail" href="spline.html"><img src="Media/Main/SplineDraw2.png"><div class="folio-overlay">Spline Rider</div></a>
 			</div>
 			<div class="folio-thumbnail">
 				<a class="folio-thumbnail" href="reclaimer.html"><img src="Media/Main/ReclaimerNewBG.png"><div class="folio-overlay">Reclaimer</div></a>
