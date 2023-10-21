@@ -9,6 +9,7 @@
 	<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/143453440.js"></script>
 	<!-- End of HubSpot Embed Code -->
 	<body>
+	<script src="https://rouninmedia.github.io/axe/axe.js"></script>
 	<!-- Sidebar -->
 	<nav class="sidebar" aria-label="Main Navigation">
 		<img src="Icons/ParadroidLogo.png" alt="Robo Logo" style="width:90px;height:90px;">
@@ -42,8 +43,7 @@
 		<!-- Image part - replace with video when its made -->
 		<div id="main-page-media">
 			<div id="overlay"><p>Introduction</p></div>
-			<iframe
-src="https://www.youtube.com/embed/g58QnumgvQI?autoplay=1&mute=1&loop=1&controls=0&playlist=g58QnumgvQI">
+			<iframe src="https://www.youtube.com/embed/hEUOxe8h4cY?autoplay=1&mute=1&loop=1&controls=0&playlist=hEUOxe8h4cY">
 			</iframe>
 			<!-- <video src="Media/Reclaimer/HitReactions.mp4" loop muted autoplay> -->
 		</div>
@@ -52,17 +52,23 @@ src="https://www.youtube.com/embed/g58QnumgvQI?autoplay=1&mute=1&loop=1&controls
 			<!-- <h2>Projects</h2> -->
 		<div id="showcase">
 			<div class="folio-thumbnail">
-				<a class="folio-thumbnail" href="eden.html"><img src="Media/Main/PhantomVR.jpg"><div class="folio-overlay">Pr̀o̠̗̟j̲̐e͋̍̅͢c̟̹̿ͩͯt͆ͤ͢ ̣̋ͦEd͏̰ͩė̯̘̕͘ñ̨̛̀̀</div></a>
+				<a class="folio-thumbnail" id="edenimg" href="eden.html"><img src="Media/Main/PhantomVR.jpg"><div class="folio-overlay">Pr̀o̠̗̟j̲̐e͋̍̅͢c̟̹̿ͩͯt͆ͤ͢ ̣̋ͦEd͏̰ͩė̯̘̕͘ñ̨̛̀̀</div></a>
 			</div>
 			<div class="folio-thumbnail">
-				<a class="folio-thumbnail" href="spline.html"><img src="Media/Main/SplineDraw2.png"><div class="folio-overlay">Spline Rider</div></a>
+				<a class="folio-thumbnail" id="splineimg" href="spline.html"><img src="Media/Main/SplineDraw2.png"><div class="folio-overlay">Spline Rider</div></a>
 			</div>
 			<div class="folio-thumbnail">
-				<a class="folio-thumbnail" href="reclaimer.html"><img src="Media/Main/ReclaimerNewBG.png"><div class="folio-overlay">Reclaimer</div></a>
+				<a class="folio-thumbnail" id="reclaimerimg" href="reclaimer.html"><img src="Media/Main/ReclaimerNewBG.png"><div class="folio-overlay">Reclaimer</div></a>
 			</div>
 			<div class="folio-thumbnail">
-				<a class="folio-thumbnail" href="aqua.html"><img src="Media/Main/Aqua2.png"><div class="folio-overlay">Aqua</div></a>
+				<a class="folio-thumbnail" id="aquaimg" href="aqua.html"><img src="Media/Main/Aqua2.png"><div class="folio-overlay">Aqua</div></a>
 			</div>
+		</div>
+		<div class="summary">
+			<span id="summary1">Unity / Team / PC - A 2D puzzle platformer about using water, ice and steam to fix a broken world.</span>
+			<span id="summary2"></span>
+			<span id="summary3"></span>
+			<span id="summary4"></span>
 		</div>
 		</div>
 		<div id="about-me" class="content">
@@ -93,7 +99,7 @@ src="https://www.youtube.com/embed/g58QnumgvQI?autoplay=1&mute=1&loop=1&controls
 		</div>
 		<div id="contact" class="content">
 			<h2>Contact</h2>
-			<p>If you're interested in hearing more I'm currently single! and <span class="emphasis">open for employment</span>, if you wish to get in contact or get a copy of my CV, please fill out the form and I'll get back to you as soon as I can.</p>
+			<p>If you're interested in hearing more I'm currently <span class="emphasis">open for employment</span>, if you wish to get in contact or get a copy of my CV, please fill out the form and I'll get back to you as soon as I can.</p>
 			
 			<form id="contactform">
 			<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>

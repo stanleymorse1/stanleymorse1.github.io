@@ -79,8 +79,9 @@ header li{
 #main-page-media iframe{
 	display:block;
 	border:none;
+	aspect-ratio: 16 / 9;
 	width:100%;
-	height:40vw;
+	/* height:40vw; */
 }
 #main-page-media{
 	position:relative;
@@ -107,8 +108,7 @@ header li{
 #main-page-media:hover #overlay p{
 	padding-top:40%;
 }
-#page:not(.emphasis, .content, .content h2, #project-thumbnails *, #projects *
-){
+#page:not(.emphasis, .content, .content h2, #project-thumbnails *, #projects *){
 	color: black;
 	background-size: length;
 	background-color: white;
@@ -126,7 +126,7 @@ header li{
 	flex-flow: column;
 	/* height: 100%; */
 }
-.content p, .content ul{
+.content p:not(.summary *), .content ul{
 	padding-bottom:5%;
 }
 #projects h2{
@@ -138,6 +138,7 @@ header li{
 /* #projects{
 	max-height:30vw;
 } */
+
 #showcase{
 	box-sizing:border-box;
 	display:flex;
@@ -166,6 +167,24 @@ header li{
 		/* max-height:2%; */
 	}
 }
+#showcase:hover + .summary{
+	padding-top:2%;
+	padding-bottom:2%;
+}
+#aquaimg:hover \ #summary1{
+	display:inline;
+}
+.summary{
+	width:auto;
+	color:white;
+	padding-left:4%;
+	font-size: 1.1vw;
+	background:rgba(0, 0, 0, 0.9);
+	transition:0.3s ease-in-out;
+}
+.summary *{
+	display:none;
+}
 .folio-overlay{
 	box-sizing:border-box;
 	position:absolute;
@@ -182,6 +201,7 @@ header li{
 	transition: .2s ease;
 	opacity: 1;
 }
+
 .content:not(#intro, #face-container, #face-overlay, #projects, #showcase){
 	padding-right: 10%;
 	padding-left: 10%;
