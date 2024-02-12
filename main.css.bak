@@ -274,46 +274,50 @@ header li{
 /* Mobile settings */
 @media screen and (max-width:1024px){
 	header{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 	box-shadow: 0px 4px 10px #222222;
 	}
 	header h1{
-	font-size:4.5vw;
+	font-size:7vw;
 	padding-bottom:1%;
 	}
 	header li{
-	font-size: 2vw;
+	font-size: 5vw;
 	}
 	#menu-social img{
-	width:1.7vw;
-	height:1.7vw;
+	width:3vw;
+	height:3vw;
 	margin-right:6px;
 	}
 	.sidebar {
 	visibility:hidden;
 	}
 	#overlay{
-		font-size:6vw;
+		font-size:12vw;
 	}
 	#page:not(.emphasis, .content, .content h2, #project-thumbnails *, #projects *){
-		margin-left:10%;
+		margin-left:3%;
+		margin-right:3%;
 	}
 	#intro{
-		font-size:2.6vw;
+		font-size:5vw;
+		padding:10%;
 	}
 	.content h2:not(#projects *){
-	font-size: 5vw;
+	font-size: 12vw;
 	}
 	.content:not(#intro, #face-container, #face-overlay, #projects, #showcase){
-	font-size: 2vw;
+	font-size: 5vw;
 	}
 	#about-me{
 		display:flex;
 		margin-left:auto;
 		margin-right:auto;
+		padding-top:0;
+		padding-bottom:0;
 		#biographic{
 			margin:0;
 			width:100%;
