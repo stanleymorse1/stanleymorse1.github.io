@@ -310,7 +310,7 @@ header li{
 	font-size: 12vw;
 	}
 	.content:not(#intro, #face-container, #face-overlay, #projects, #showcase){
-	font-size: 5vw;
+	font-size: 4vw;
 	}
 	#about-me{
 		display:flex;
