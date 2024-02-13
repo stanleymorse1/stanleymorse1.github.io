@@ -138,7 +138,7 @@ header li{
 /* #projects{
 	max-height:30vw;
 } */
-
+@media (min-width:1025px){
 #showcase{
 	box-sizing:border-box;
 	display:flex;
@@ -166,6 +166,7 @@ header li{
 		object-fit:cover;
 		/* max-height:2%; */
 	}
+}
 }
 /* #showcase:hover + .summary{
 	padding-top:2%;
@@ -272,7 +273,7 @@ header li{
 	padding-bottom:3%;
 }
 /* Mobile settings */
-@media screen and (max-width:1024px){
+@media (max-width:1024px){
 	header{
 	padding-left: 3%;
 	padding-right: 3%;
@@ -288,8 +289,8 @@ header li{
 	font-size: 5vw;
 	}
 	#menu-social img{
-	width:3vw;
-	height:3vw;
+	width:4vw;
+	height:4vw;
 	margin-right:6px;
 	}
 	.sidebar {
@@ -303,14 +304,14 @@ header li{
 		margin-right:3%;
 	}
 	#intro{
-		font-size:5vw;
-		padding:10%;
+		font-size:5.5vw;
+		padding:13.2%;
 	}
 	.content h2:not(#projects *){
 	font-size: 12vw;
 	}
 	.content:not(#intro, #face-container, #face-overlay, #projects, #showcase){
-	font-size: 4vw;
+	font-size: 4.5vw;
 	}
 	#about-me{
 		display:flex;
@@ -328,4 +329,40 @@ header li{
 			margin:auto;
 		}
 	}
+	#showcase{
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:column-reverse;
+	/* max-height:17vw; */
+	height:280vw;
+	.folio-thumbnail{
+		display:flex;
+		position:relative;
+		flex: 1 1 25%;
+		max-width:100%;
+		overflow: hidden;
+		transition:flex-basis 0.7s ease-in-out;
+	}
+	.folio-overlay{
+		margin-top:60%;
+		padding:0%;
+		padding-top:2%;
+		font-size:7vw;
+		background: rgba(90, 27, 18, 0.8);
+	}
+	/* .folio-thumbnail:hover{
+		flex-basis:50%;
+		.folio-overlay{
+			background: rgba(90, 27, 18, 0);
+			padding-top:80%;
+			font-size:6vw;
+			text-decoration:underline;
+		}
+	} */
+	img{
+		display:block;
+		/* object-fit:cover; */
+		/* max-height:2%; */
+	}
+}
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="main.css">
 	<title>Stanley Morse - BSc Game Design</title>
 	<link rel="icon" type="image/x-icon" href="Icons/ParadroidLogo.png">
@@ -40,7 +40,6 @@
 		</div>
 	</header>
 	<div id="page">
-		<!-- Image part - replace with video when its made -->
 		<div id="main-page-media">
 			<div id="overlay"><p>Introduction</p></div>
 			<iframe src="https://www.youtube.com/embed/hEUOxe8h4cY?autoplay=1&mute=1&loop=1&controls=0&playlist=hEUOxe8h4cY">
