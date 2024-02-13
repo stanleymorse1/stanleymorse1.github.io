@@ -179,8 +179,8 @@ header li{
 	font-size: 5vw;
 	}
 	#menu-social img{
-	width:3vw;
-	height:3vw;
+	width:4vw;
+	height:4vw;
 	margin-right:6px;
 	}
 	.sidebar {
@@ -194,7 +194,7 @@ header li{
 		margin-right:3%;
 	}
 	#roles{
-		font-size:4vw;
+		font-size:5.5vw;
 	}
 	.content h2:not(#projects *){
 	font-size: 12vw;
@@ -202,11 +202,23 @@ header li{
 	.content img, .content video{
 	width:100%;
 	}
+	.content:not(#roles){
+	padding-left:0%;
+	padding-right:0%;
+	}
+	.content p, #roles{
+	padding-left: 10%;
+	padding-right:10%;
+	}
+	.content img{
+	padding-left:0%;
+	padding-right:0%;
+	}
 	.content p{
 		padding-top:10%;
 		padding-bottom:10%;
 	}
 	.content:not(#intro, #face-container, #face-overlay, #projects, #showcase){
-	font-size: 4vw;
+	font-size: 5vw;
 	}
 }
