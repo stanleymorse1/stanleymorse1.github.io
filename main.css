@@ -334,6 +334,10 @@ header li{
 		width:60%;
 		margin:auto;
 	}
+	#face-overlay{
+		width:0;
+		display:hidden;
+	}
 	#showcase{
 	box-sizing:border-box;
  	display: -moz-flex;

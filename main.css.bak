@@ -182,7 +182,7 @@ header li{
 #face-container{
 	position:relative;
 	margin-right:3%;
-	width:17vw;
+	width:16vw;
 	height:auto;
 	float:left;
 }
@@ -333,6 +333,9 @@ header li{
 		display:block;
 		width:60%;
 		margin:auto;
+	}
+	#face-overlay{
+		display:hidden;
 	}
 	#showcase{
 	box-sizing:border-box;
