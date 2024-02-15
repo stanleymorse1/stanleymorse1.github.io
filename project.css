@@ -8,7 +8,7 @@ html,body{
 	height:100%;
 }
 body:not(.sidebar li){
-	font-family: calibri;
+	font-family: -apple-system, calibri;
 }
 body{
 	background-color: #444444;
@@ -28,7 +28,7 @@ body{
 	padding: 16px;
 }
 .sidebar li{
-	font-family: courier new;
+	font-family: -apple-system, courier new;
 	display: block;
 	padding: 16px;
 	font-size: 160%;

@@ -206,7 +206,7 @@ header li{
 	padding-left:0%;
 	padding-right:0%;
 	}
-	.content p{
+	.content p, #roles{
 	padding-left: 10%;
 	padding-right:10%;
 	}
