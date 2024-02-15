@@ -142,6 +142,11 @@ header li{
 #showcase{
 	box-sizing:border-box;
 	display:flex;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
 	flex-direction:row-reverse;
 	max-height:17vw;
 	height:100%;
@@ -330,6 +335,11 @@ header li{
 		}
 	}
 	#showcase{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -moz-flex;
+	display: -webkit-flex;
 	display:flex;
 	flex-flow:column;
 	/* object-fit:contain; */
@@ -340,6 +350,7 @@ header li{
 	.folio-thumbnail{
 		position:relative;
 		max-height:25%;
+		max-width:inherit;
 		overflow: hidden;
 	}
 	.folio-overlay{
@@ -358,6 +369,7 @@ header li{
 		display:block;
 		object-fit:contain;
 		max-height:100%;
+		max-width:inherit;
 		/* object-fit:cover; */
 		/* max-height:2%; */
 	}

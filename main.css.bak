@@ -273,7 +273,7 @@ header li{
 	padding-bottom:3%;
 }
 /* Mobile settings */
-@media screen (max-width:1024px){
+@media (max-width:1024px){
 	header{
 	padding-left: 3%;
 	padding-right: 3%;
@@ -340,6 +340,7 @@ header li{
 	.folio-thumbnail{
 		position:relative;
 		max-height:25%;
+		max-width:inherit;
 		overflow: hidden;
 	}
 	.folio-overlay{
@@ -358,6 +359,7 @@ header li{
 		display:block;
 		object-fit:contain;
 		max-height:100%;
+		max-width:inherit;
 		/* object-fit:cover; */
 		/* max-height:2%; */
 	}
