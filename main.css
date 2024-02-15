@@ -335,7 +335,6 @@ header li{
 	box-sizing:border-box;
 	display: -moz-flex;
 	display: -webkit-flex;
-	/* display:inline-flex; */
 	display:flex;
 	flex-direction:column-reverse;
 
