@@ -8,8 +8,7 @@ html,body{
 	height:100%;
 }
 body:not(.sidebar li){
-	font-family: -apple-system;
-	font-family: calibri;
+	font-family: -apple-system, calibri;
 }
 body{
 	background-color: #444444;
@@ -29,7 +28,7 @@ body{
 	padding: 16px;
 }
 .sidebar li{
-	font-family: courier new;
+	font-family: -apple-system, courier new;
 	display: block;
 	padding: 16px;
 	font-size: 160%;
@@ -342,7 +341,7 @@ header li{
 	/* height:280vw; */
 	}
 	.folio-thumbnail{
-		display:inline-flex;
+		/* display:inline-flex; */
 		position:relative;
 		/* flex: 1 1 25%; */
 		max-width:100%;
@@ -371,7 +370,7 @@ header li{
 	} */
 	#showcase img{
 		display:block;
-		width:100%;
+		max-width:100%;
 		max-height:100%;
 		/* object-fit:cover; */
 		/* max-height:2%; */
