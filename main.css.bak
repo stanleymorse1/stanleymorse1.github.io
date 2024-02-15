@@ -8,6 +8,7 @@ html,body{
 	height:100%;
 }
 body:not(.sidebar li){
+	font-family: -apple-system;
 	font-family: calibri;
 }
 body{
@@ -337,17 +338,15 @@ header li{
 	display: -webkit-flex;
 	display:flex;
 	flex-direction:column-reverse;
-
 	/* max-height:17vw; */
 	height:280vw;
 	}
 	.folio-thumbnail{
 		display:inline-flex;
 		position:relative;
-		flex: 1 1 25%;
+		/* flex: 1 1 25%; */
 		max-width:100%;
 		overflow: hidden;
-		transition:flex-basis 0.7s ease-in-out;
 	}
 	.folio-overlay{
 		/* margin-top:60%; */
@@ -372,8 +371,8 @@ header li{
 	} */
 	#showcase img{
 		display:block;
-		width:inherit;
-		height:auto;
+		width:100%;
+		max-height:100%;
 		/* object-fit:cover; */
 		/* max-height:2%; */
 	}
