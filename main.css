@@ -169,6 +169,23 @@ header li{
 		/* max-height:2%; */
 	}
 }
+#about-me{
+	padding-top:7%;
+	padding-bottom:7%;
+	padding-right:0%;
+}
+#biographic{
+	width:55%;
+	float:left;
+	display:block;
+}
+#face-container{
+	position:relative;
+	margin-right:3%;
+	width:16vw;
+	height:auto;
+	float:left;
+}
 }
 /* #showcase:hover + .summary{
 	padding-top:2%;
@@ -231,23 +248,7 @@ header li{
 	padding-top:10%;
 	font-size: 1.4vw;
 }
-#about-me{
-	padding-top:7%;
-	padding-bottom:7%;
-	padding-right:0%;
-}
-#biographic{
-	width:55%;
-	float:left;
-	display:block;
-}
-#face-container{
-	position:relative;
-	margin-right:3%;
-	width:40%;
-	height:auto;
-	float:left;
-}
+
 #face-container img{
 	/* filter: saturate(0%); */
 	display:flex;
@@ -316,20 +317,22 @@ header li{
 	font-size: 5vw;
 	}
 	#about-me{
-		display:flex-column;
+		display:auto;
 		margin-left:auto;
 		margin-right:auto;
 		padding-top:0;
 		padding-bottom:0;
-		#biographic{
-			margin:0;
-			width:100%;
-			padding-top:5%;
-		}
-		#face-container{
-			width:60%;
-			margin:auto;
-		}
+
+	}
+	#biographic{
+		margin:0;
+		width:100%;
+		padding-top:5%;
+	}
+	#face-container{
+		display:block;
+		width:60%;
+		margin:auto;
 	}
 	#showcase{
 	box-sizing:border-box;
