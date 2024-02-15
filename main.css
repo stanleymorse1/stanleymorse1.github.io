@@ -141,6 +141,8 @@ header li{
 @media (min-width:1025px){
 #showcase{
 	box-sizing:border-box;
+	display: -moz-flex;
+	display: -webkit-flex;
 	display:flex;
 	flex-direction:row-reverse;
 	max-height:17vw;
@@ -331,8 +333,12 @@ header li{
 	}
 	#showcase{
 	box-sizing:border-box;
+	display: -moz-flex;
+	display: -webkit-flex;
+	/* display:inline-flex; */
 	display:flex;
 	flex-direction:column-reverse;
+
 	/* max-height:17vw; */
 	height:280vw;
 	.folio-thumbnail{
