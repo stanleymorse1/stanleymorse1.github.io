@@ -46,7 +46,7 @@
 			</iframe>
 			<!-- <video src="Media/Reclaimer/HitReactions.mp4" loop muted autoplay> -->
 		</div>
-		<p id="intro" class="content">Welcome... <i>to my domain!</i> I'm constantly spilling my brains into crazy games and I'm always looking for my next challenge. I'm primarily a <span class="emphasis">programmer/designer</span>, but I like to branch out. Feel free to check out my games below!</p>
+		<p id="intro" class="content">Welcome... <i>to my domain!</i> <!-- <span class="emphasis"><b><i>TO MY DOMAIN!!</b></i></span> --> I'm constantly spilling my brains into crazy games and I'm always looking for my next challenge. I'm primarily a <span class="emphasis">programmer/designer</span>, but I like to branch out. Feel free to check out my games below!</p>
 		<div id="projects" class="content">
 			<!-- <h2>Projects</h2> -->
 		<div id="showcase">
