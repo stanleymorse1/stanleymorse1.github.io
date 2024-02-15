@@ -142,9 +142,6 @@ header li{
 #showcase{
 	box-sizing:border-box;
 	display: flex;
- 	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
 	display: -moz-flex;
 	display: -webkit-flex;
 	flex-direction:row-reverse;
@@ -335,9 +332,6 @@ header li{
 		}
 	}
 	#showcase{
- 	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
 	display: -moz-flex;
 	display: -webkit-flex;
 	display:inline-flex;

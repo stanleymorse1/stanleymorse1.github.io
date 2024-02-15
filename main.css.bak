@@ -141,10 +141,7 @@ header li{
 @media (min-width:1025px){
 #showcase{
 	box-sizing:border-box;
-	display:flex;
- 	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
+	display: flex;
 	display: -moz-flex;
 	display: -webkit-flex;
 	flex-direction:row-reverse;
