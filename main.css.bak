@@ -342,7 +342,7 @@ header li{
 	height:280vw;
 	}
 	.folio-thumbnail{
-		display:flex;
+		display:inline-flex;
 		position:relative;
 		flex: 1 1 25%;
 		max-width:100%;
@@ -370,8 +370,10 @@ header li{
 			text-decoration:underline;
 		}
 	} */
-	img{
+	#showcase img{
 		display:block;
+		width:inherit;
+		height:auto;
 		/* object-fit:cover; */
 		/* max-height:2%; */
 	}

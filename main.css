@@ -8,6 +8,7 @@ html,body{
 	height:100%;
 }
 body:not(.sidebar li){
+	font-family: -apple-system;
 	font-family: calibri;
 }
 body{
@@ -342,7 +343,7 @@ header li{
 	height:280vw;
 	}
 	.folio-thumbnail{
-		display:flex;
+		display:inline-flex;
 		position:relative;
 		flex: 1 1 25%;
 		max-width:100%;
@@ -372,6 +373,8 @@ header li{
 	} */
 	#showcase img{
 		display:block;
+		width:inherit;
+		height:auto;
 		/* object-fit:cover; */
 		/* max-height:2%; */
 	}
