@@ -333,13 +333,14 @@ header li{
 	}
 	#showcase{
 	box-sizing:border-box;
-	display: -moz-flex;
+ 	display: -moz-flex;
 	display: -webkit-flex;
 	display:flex;
 	flex-direction:column-reverse;
 
 	/* max-height:17vw; */
 	height:280vw;
+	}
 	.folio-thumbnail{
 		display:flex;
 		position:relative;
@@ -369,10 +370,9 @@ header li{
 			text-decoration:underline;
 		}
 	} */
-	img{
+	#showcase img{
 		display:block;
 		/* object-fit:cover; */
 		/* max-height:2%; */
 	}
-}
 }
