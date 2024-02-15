@@ -356,7 +356,9 @@ header li{
 		width:35vw;
 		padding:2%;
 		/* padding-top:2%; */
-		font-size:5vw;
+		font-size:4.5vw;
+		transition:none;
+		overflow:hidden;
 		background: rgba(80, 17, 8, 0.8);
 	}
 	/* .folio-thumbnail:hover{
