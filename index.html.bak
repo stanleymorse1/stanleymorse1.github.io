@@ -46,7 +46,7 @@
 			</iframe>
 			<!-- <video src="Media/Reclaimer/HitReactions.mp4" loop muted autoplay> -->
 		</div>
-		<p id="intro" class="content">Welcome to my world! I'm constantly spilling my brains into crazy games and I'm always looking for my next challenge. I'm primarily a <span class="emphasis">programmer/designer</span>, but I like to branch out. Feel free to check out my games below!</p>
+		<p id="intro" class="content">Welcome... <i>to my domain!</i> <!-- <span class="emphasis"><b><i>TO MY DOMAIN!!</b></i></span> --> I'm constantly spilling my brains into crazy games and I'm always looking for my next challenge. I'm primarily a <span class="emphasis">programmer/designer</span>, but I like to branch out. Feel free to check out my games below!</p>
 		<div id="projects" class="content">
 			<!-- <h2>Projects</h2> -->
 		<div id="showcase">
@@ -99,7 +99,7 @@
 		<div id="contact" class="content">
 			<h2>Contact</h2>
 			<p>If you're interested in hearing more I'm currently <span class="emphasis">open for employment</span>, if you wish to get in contact or get a copy of my CV, please fill out the form and I'll get back to you as soon as I can.</p>
-			
+			<!--sse-->
 			<form id="contactform">
 			<script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
 			<script>
@@ -124,6 +124,7 @@
 			<p id="smallprint">This information is only used to send an email to my address and is not stored. You can check the php if you really want as this website is open source on my <a href="https://github.com/stanleymorse1">Github</a>.</p>
 			-->
 			</form>
+			<!--/sse-->
 		</div>
 	</div>
 	</body>
