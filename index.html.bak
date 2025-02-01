@@ -33,6 +33,7 @@
 		<ul id="menu-social">
 			<!-- do inline icons for each -->
 			<li id="itch-link"><a href="https://paradro1d.itch.io/"><img src="Icons/itchLogo.png"><span class="screen-reader-text">Itch</span></a></li>
+			<li id="bluesky-link"><a href="https://bsky.app/profile/standroid.dev"><img src="Icons/bskyLogo2.png"><span class="screen-reader-text">Github</span></a></li>
 			<li id="twitter-link"><a href="https://twitter.com/paradr0id_"><img src="Icons/twitterLogo.png"><span class="screen-reader-text">Twitter</span></a></li>
 			<li id="github-link"><a href="https://github.com/stanleymorse1"><img src="Icons/githubLogo.png"><span class="screen-reader-text">Github</span></a></li>
 		</ul>
@@ -77,9 +78,9 @@
 				<img src="Media/Main/Stanley1.jpg" alt="My Face">
 			</div>
 			<div id="biographic">
-			<p>I'm a twenty-something indie game developer based in London, England making anything from portfolio websites to  science-fantasy action rogue-lites.<!-- with a passion to create games ranging from chill puzzle platformers to action-packed narrative adventures. From a young age I've been frantically drawing,  jotting ideas and dreaming of the games I would make. Since beginning my first game project for Computer Science coursework in 2017, I've been making those dreams a reality. --></p>
+			<p>I'm a twenty-something indie game developer based in London, England making anything from portfolio websites to  science-fantasy action rogue-lites.</p>
 			
-			<p>I'm mainly self-taught, determined and dedicated to making the best games, even where my knowledge might be lacking I persist until I get the job done. With enough time I'm able to achieve anything (in videogames, at least)<!--  and rarely use tutorials, instead abstracting and breaking down problems into simpler components to find a solution. This helped me to develop my problem-solving skills and enables me to tackle unique problems and implement experimental features in my games. Paired with my perseverance, I am yet to find a problem I couldn't solve (at least, within game development). --></p>
+			<p>I'm mainly self-taught, determined and dedicated to making the best games, even where my knowledge might be lacking I persist until I get the job done. With enough time I'm able to achieve anything (in videogames, at least)</p>
 			</div>
 		</div>
 		<div id="skills" class="content">
@@ -92,7 +93,7 @@
 			<li>LUA</li>
 			<li>Python</li>
 			</ul>
-			<p>In addition to these technical skills I consider myself a generalist, able to produce quality design, art and sounds for my solo projects, and a capable leader, having been producer for several game jam teams (see my <a href="https://paradro1d.itch.io/">itch</a> page). I'm also currently managing a team of talented devs and friends... stay tuned?<!-- In addition to these technical skills, I have learned to support a team and organise projects as a producer and generalist in several game jams (see games listed on my <a href="https://paradro1d.itch.io/">itch</a> page), as well as presentation skills from pitching projects and my time as a teacher. --></p>
+			<p>In addition to these technical skills I consider myself a generalist, able to produce quality design, art and sounds for my solo projects, and a capable leader, having been producer for several game jam teams (see my <a href="https://paradro1d.itch.io/">itch</a> page). I'm also currently managing a team of talented devs and friends... stay tuned?</p>
 		</div>
 		<div id="contact" class="content">
 			<h2>Contact</h2>
