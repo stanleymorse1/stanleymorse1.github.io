@@ -13,6 +13,19 @@ body:not(.sidebar li){
 body{
 	background-color: #444444;
 }
+.circled{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width:7vw;
+	height:6vw;
+	padding-bottom: 3.3vw;
+	padding-right: 3.5vw;
+	rotate:180deg;
+	top:0;
+
+    pointer-events: none
+}
 .sidebar{
 	margin-left:0px;
 	width: 300px;
@@ -46,12 +59,12 @@ body{
 #menu-social{
 	padding-left: 0px;
 }
-#menu-social img{
+#menu-social img:not(.circled){
 	width:0.9vw;
 	height:0.9vw;
 	margin-right:6px;
 }
-.social-buttons li{
+.social-buttons li:not(.circled){
 	display: inline;
 	padding-right: 17px;
 }
@@ -291,6 +304,19 @@ header li{
 	header li{
 	font-size: 5vw;
 	}
+	.circled{
+		display: block;
+		position: absolute;
+		z-index: 2;
+		width:7vw;
+		height:6vw;
+		padding-bottom: 3.3vw;
+		padding-right: 3.5vw;
+		rotate:180deg;
+		top:0;
+
+		pointer-events: none	
+	}
 	#menu-social img{
 	width:4vw;
 	height:4vw;
@@ -335,6 +361,7 @@ header li{
 		margin:auto;
 	}
 	#face-overlay{
+		width:0;
 		display:hidden;
 	}
 	#showcase{

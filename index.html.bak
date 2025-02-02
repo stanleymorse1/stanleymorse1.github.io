@@ -33,7 +33,7 @@
 		<ul id="menu-social">
 			<!-- do inline icons for each -->
 			<li id="itch-link"><a href="https://paradro1d.itch.io/"><img src="Icons/itchLogo.png"><span class="screen-reader-text">Itch</span></a></li>
-			<li id="bluesky-link"><a href="https://bsky.app/profile/standroid.dev"><img src="Icons/bskyLogo2.png"><span class="screen-reader-text">Github</span></a></li>
+			<li id="bluesky-link"><img src="Media/Main/circled.gif" alt="Follow me on Bluesky!" class="circled"><a href="https://bsky.app/profile/standroid.dev"><img src="Icons/bskyLogo2.png"><span class="screen-reader-text">Bluesky</span></a></li>
 			<li id="twitter-link"><a href="https://twitter.com/paradr0id_"><img src="Icons/twitterLogo.png"><span class="screen-reader-text">Twitter</span></a></li>
 			<li id="github-link"><a href="https://github.com/stanleymorse1"><img src="Icons/githubLogo.png"><span class="screen-reader-text">Github</span></a></li>
 		</ul>
@@ -43,7 +43,7 @@
 	<div id="page">
 		<div id="main-page-media">
 			<div id="overlay"><p>Introduction</p></div>
-			<iframe src="https://www.youtube.com/embed/hEUOxe8h4cY?autoplay=1&mute=1&loop=1&controls=0&playlist=hEUOxe8h4cY">
+			<iframe src="https://www.youtube.com/embed/hEUOxe8h4cY?vq=hd1080&pautoplay=1&mute=1&loop=1&controls=0&playlist=hEUOxe8h4cY">
 			</iframe>
 			<!-- <video src="Media/Reclaimer/HitReactions.mp4" loop muted autoplay> -->
 		</div>
